@@ -51,7 +51,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             sumPay = sumPay + arr[i];
         }
-        averagePay = sumPay / arr.length;
+        averagePay = (float) sumPay / arr.length;
         System.out.printf("Средняя сумма трат за месяц составила %.2f рублей\n", averagePay);
     }
 
